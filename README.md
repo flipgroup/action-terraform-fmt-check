@@ -15,5 +15,5 @@ jobs:
       - name: Terraform format check
         uses: flipgroup/action-terraform-fmt-check@main
         with:
-          version: 1.5.7
+          version: 1.7.5
 ```
