@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Terraform format check
         uses: flipgroup/action-terraform-fmt-check@main
         with:
-          version: 1.7.5
+          version: 1.12.2
 ```
