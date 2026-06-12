@@ -10,8 +10,6 @@ jobs:
     name: Lint
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source
-        uses: actions/checkout@v6
       - name: Terraform format check
         uses: flipgroup/action-terraform-fmt-check@main
         with:
